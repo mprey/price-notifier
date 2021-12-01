@@ -1,0 +1,17 @@
+{
+  "name": "price-notifier",
+  "version": "1.0.0",
+  "description": "Monitor crypto address net worth",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.0.14",
+    "nodemailer": "^6.7.2"
+  }
+}
